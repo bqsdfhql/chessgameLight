@@ -1,0 +1,22 @@
+Concept
+=======
+
+1 Objets: 
+- Chaque figure d'echec est representé comme objet, derivé d'une classe commune "figure"
+- Chaque figure comme le pion herite de la classe "figure"
+
+"figure":
+position x, y
+vecteurs                #quelles positions sont possibles pour la figure
+fonction "bouger"(x, y)
+
+"pion":
+#herité de figure:
+position x, y
+vecteur                #quelles positions sont possibles pour la figure
+regle_specifique       
+fonction "bouger"(x, y)
+
+
+
+
